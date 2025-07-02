@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <style>
+     *{
+      margin: 0;
+      padding: 0;
+      color: #060606;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #ccb9b9;
+      color: #060606;
+    }
+    section {
+      display: flex;
+      padding: 50px;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #0e0d0d;
+      flex-wrap: wrap;
+    }
+    .left, .right {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+    .left img, .right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    .logos img {
+      width: 60px;
+      margin: 10px;
+    }
+    .contact a {
+      display: block;
+      margin: 5px 0;
+      text-decoration: none;
+      color: #0077cc;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    .experience-section {
+      max-width: 800px;
+    }
+    .experience-title {
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .job-title {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .company-location {
+      font-weight: bold;
+    }
+    .timeline {
+      border-left: 2px solid black;
+      padding-left: 20px;
+      margin-top: 10px;
+      position: relative;
+    }
+    .timeline::before {
+      content: '08/2024 - Current';
+      position: absolute;
+      left: -90px;
+      top: 0;
+      transform: rotate(-90deg);
+      transform-origin: left center;
+      font-size: 14px;
+    }
+    .timeline ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .timeline li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Image and Introduction -->
+  <section>
+    <div class="left">
+      <img src="/images/myporfolioimage.jpg" height="200px"width =200px alt="Profile Picture">
+    </div>
+    <div class="right">
+      <h1>Hello, I'm Yogesh Gaikwad</h1>
+      <p>Android development professional skilled in building feature-rich
+mobile applications using Java and Kotlin. Expertise in debugging,
+optimising performance, and integrating third-party APIs. Strong
+focus on user experience and responsive design, with solid
+knowledge of Git, RESTful services, and modern architectural
+patterns.</p>
+    </div>
+  </section>
+
+  <!-- Section 2: Qualification and Experience -->
+  <section>
+    <div class="left">
+      <h2>Qualification</h2>
+      <p>Bachelor's in Electronics And Telecommunication<br>
+        PG - Diploma Mobile Computing(PG-DMC)C -DAC - Pune, IN-MH</p>
+    </div>
+    <div class="right">
+    <div class="experience-section">
+    <div class="experience-title">EXPERIENCE</div>
+    <div class="job-title">Senior Analyst</div>
+    <div class="company-location">Accenture - <span style="font-weight:normal;">PUNE</span></div>
+    
+    <div class="timeline">
+      <ul>
+        <li>Developed and maintained Android applications, enhancing user experience and interface design for optimal performance.</li>
+        <li>Worked closely with clients to develop mobile applications for Android and iOS platforms.</li>
+        <li>Provided technical support and troubleshooting for application issues, enhancing user satisfaction and productivity.</li>
+        <li>Monitored security alerts and implemented measures to protect against vulnerabilities, safeguarding company and customer data.</li>
+        <li>Responded to customer queries and provided resolutions to maintain smooth communications.</li>
+        <li>Worked with project teams in implementing and testing systems against requirements for error detection and quality assurance.</li>
+        <li>Validated systems to assess needed improvements and recommend options for closing gaps and enhancing functionality.</li>
+      </ul>
+    </div>
+  </div>
+   <div class="experience-section">
+    <div class="job-title">Associate consultant</div>
+    <div class="company-location">Atos - <span style="font-weight:normal;">PUNE</span></div>
+    
+    <div class="timeline">
+      <ul>
+        <li>Coded software updates to add new features, close security holes and resolve defects.</li>
+        <li>Conducted code reviews and unit testing, significantly reducing</li>
+        <li>application errors and ensuring robust app builds.</li>
+        <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
+        <li>Utilized Git for version control, ensuring code integrity and facilitating team collaboration.</
+      </ul>
+    </div>
+  </div>
+   <div class="experience-section">
+    <div class="job-title">Android Developer</div>
+    <div class="company-location"> Silica Technology  - <span style="font-weight:normal;">PUNE</span></div>
+    
+    <div class="timeline">
+      <ul>
+        <li>Developed and maintained Android applications, enhancing user experience and interface design for optimal performance.</li>
+        <li>Worked closely with clients to develop mobile applications for Android and iOS platforms.</li>
+        <li>Provided technical support and troubleshooting for application issues, enhancing user satisfaction and productivity.</li>
+        <li>Monitored security alerts and implemented measures to protect against vulnerabilities, safeguarding company and customer data.</li>
+      </ul>
+    </div>
+  </div>
+  
+    </div>
+  </section>
+
+  <!-- Section 3: Skills  -->
+  <section>
+    <div class="left">
+      <h2>Skills</h2>
+      <div>
+        <ul>
+          <li>Object-Oriented programming</li>
+          <li>Agile methodology familiarity</li>
+          <li>Kotlin proficiency</li>
+          <li>Java programming</li>
+          <li>Unit testing</li>
+          <li>Mobile development</li>
+          <li> SQL</li>
+          <li> Spring Boot</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Full-stack development</li>
+          <li>ReactJS familiarity</li>
+          <li>CSS</li>
+      
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+       <h2>Hobbies</h2>
+        <ul>
+    <li>Drawing / Sketching</li>
+    <li>Painting (oil, watercolor, acrylic)</li>
+    <li>Photography</li>
+    <li>Pottery / Ceramics</li>
+    <li>Graphic design</li>
+    <li>Calligraphy</li>
+    <li>DIY crafts</li>
+    <li>Origami</li>
+    <li>Woodworking</li>
+    <li>Fashion design</li>
+  </ul>
+    </div>
+  </section>
+
+  <!-- Section 4: Hobbies -->
+  
+
+  <!-- Section 4: Projects -->
+  <section>
+    <div class="left">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Fedex</strong> The FedEx Mobile App is a feature-rich logistics and delivery tracking application designed to help users manage their FedEx shipments with ease. It offers seamless tracking, real-time notifications, and convenient tools for scheduling pickups and managing deliveries, tailored for both individual customers and business clients.</li>
+        <hr/>
+        <li><strong>MobileEye</strong> MobileEye is a real-time vehicle tracking mobile application designed to enhance fleet management and ensure safety, efficiency, and transparency in vehicle operations. It enables users to monitor the movement and status of vehicles through GPS and provides actionable insights for both fleet managers and individual users.</li>
+       <hr/>
+        <li><strong>WorksWareAndmoveMobileApp</strong> WorksWareAndmoveMobileApp is a mobile application designed to streamline workforce management and operational logistics for moving companies. The app allows field workers and managers to coordinate tasks, track job progress, and manage assets efficiently, all from their mobile devices.</li>
+      <hr/>
+      </ul>
+    </div>
+    <div class="right">
+      <h2>Technologies Used</h2>
+      <div class="logos">
+        <img src="/images/java.png" alt="Java Logo">
+        <img src="/images/kotlin.png" alt="Kotlin Logo">
+        <img src="/images/android.png" alt="Android Logo">
+        <img src="/images/GitHub-Logo.png" alt="Git Logo">
+        <img src="/images/sql.jpg" alt="SQL Logo">
+        <img src="/images/spring-boot-icon.png" alt="Spring Boot Logo">
+        <img src="/images/javascript.png" alt="JavaScript Logo">
+        <img src="/images/HTML.jpeg" alt="HTML Logo">
+        <img src="/images/css.png" alt="CSS Logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Map and Contact -->
+  <section>
+    <div class="left">
+      <h2>My Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.056363920848!2d-122.41941548467966!3d37.77492977975962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c2ec2b799%3A0x499f70ea2cf2fd4e!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1618304793732"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+    <div class="right contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:your.email@example.com">yogeshgaikwad9423@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917020248364">+91 7020248364</a></p>
+      <p>Connect with me:</p>
+      <a href="www.linkedin.com/in/yogesh-gaikwad-b97355119" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Yogesh589/HTMLRepo" target="_blank">GitHub</a>
+      <a href="https://www.facebook.com/" target="_blank">FaceBook</a>
+    </div>
+  </section>
+
+</body>
+</html>
+                
